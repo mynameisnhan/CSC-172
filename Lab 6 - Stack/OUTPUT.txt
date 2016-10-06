@@ -1,0 +1,29 @@
+Nhan Le
+CSC 172
+Lab 6: Stack
+
+=== OUTPUT ===
+USING isEmpty: 
+The stack is empty.
+
+USING push AND isEmpty: 
+The stack is not empty.
+
+USING peek: 
+The first element is: R
+
+USING pop: 
+The popped element is: R
+The popped element is: I
+The popped element is: P
+The popped element is:  
+The popped element is: H
+The popped element is: a
+The popped element is: r
+The popped element is: a
+The popped element is: m
+The popped element is: b
+The popped element is: e
+
+USING isEmpty: 
+The stack is empty. Harambe is dead. The world is meaningless.

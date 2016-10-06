@@ -1,0 +1,5 @@
+In telecommunication, Hamming codes are a family of linear error-correcting codes that generalize the Hamming(7,4)-code,
+and were invented by Richard Hamming in 1950. Hamming codes can detect up to two-bit errors or correct one-bit errors
+without detection of uncorrected errors. By contrast, the simple parity code cannot correct errors, and can detect only
+an odd number of bits in error. Hamming codes are perfect codes, that is, they achieve the highest possible rate for
+codes with their block length and minimum distance of three.[1]

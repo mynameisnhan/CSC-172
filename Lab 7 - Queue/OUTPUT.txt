@@ -1,0 +1,29 @@
+Nhan Le
+CSC 172
+Lab 7: Queue
+
+=== OUTPUT ===
+USING isEmpty: 
+The queue is empty.
+
+USING enqueue AND isEmpty: 
+The queue is not empty.
+
+USING peek: 
+The first element is: R
+
+USING dequeue: 
+The dequeued element is: R
+The dequeued element is: I
+The dequeued element is: P
+The dequeued element is:  
+The dequeued element is: H
+The dequeued element is: a
+The dequeued element is: r
+The dequeued element is: a
+The dequeued element is: m
+The dequeued element is: b
+The dequeued element is: e
+
+USING isEmpty: 
+The queue is empty. Harambe is dead. The world is meaningless.

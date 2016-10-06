@@ -1,0 +1,19 @@
+Nhan Le
+nle2@u.rochester.edu
+Lab Section: MW 200 315
+Lab 1: Generics
+
+=== OUTPUT FOR Lab1Part1.java ===
+
+1 2 3 4 5 
+1.1 2.2 3.3 4.4 
+H E L L O 
+once upon a time 
+max Integer is: 5
+max Double is: 4.4
+max Character is: O
+max String is: upon
+
+=== OUTPUT FOR Lab1Part2.java ===
+
+T

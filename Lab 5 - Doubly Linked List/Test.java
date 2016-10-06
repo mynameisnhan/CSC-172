@@ -1,0 +1,52 @@
+/* Nhan Le
+ * CSC 172
+ * Lab 5: Doubly Linked List 
+ */
+
+public class Test 
+{
+	public static void main(String[] args) 
+	{
+	    // Initialize DLL.
+	    DLL<String> list = new DLL<String>();
+	    
+	    System.out.println("USING isEmpty: ");
+	    if (list.isEmpty())
+	    	System.out.println("The String list is empty.");
+	    
+	    list.insert("h");
+	    list.insert("a");
+	    list.insert("r");
+	    list.insert("A"); 
+	    list.insert("a"); // This will not be added because "a" is already present."
+	    list.insert("m");
+	    list.insert("b");
+	    list.insert("e");
+	    
+	    System.out.println("\nUSING insert AND printList: ");
+	    list.printList();
+	    
+	    System.out.println("\nUSING isEmpty: ");
+	    if (!list.isEmpty())
+	    	System.out.println("The String list is not empty.");
+	    
+	    System.out.println("\nUSING isPresent: ");
+	    if (list.isPresent("h"))
+	    	System.out.println("The String list contains \"h\".");  
+	    
+	    System.out.println("\nUSING lookup: ");
+	    System.out.println("Does SLL contain \"harambe\"?: " + list.lookup("harambe")); 
+	    
+	    list.delete("b");
+	    list.delete("e");
+	    
+	    System.out.println("\nUSING delete AND printList: ");
+	    list.printList();
+	    
+	    System.out.println("\nUSING printListRev: ");
+	    list.printListRev();
+
+	    System.out.println("\nUSING returnSize: ");
+	    System.out.println("The size of the list is: " + list.returnSize());
+	}
+}

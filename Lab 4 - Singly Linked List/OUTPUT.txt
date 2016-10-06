@@ -1,0 +1,25 @@
+Nhan Le
+CSC 172
+Lab 4: Singly Linked List
+
+=== OUTPUT ===
+USING isEmpty: 
+The String list is empty.
+
+USING insert AND printList: 
+h a r A m b e 
+
+USING isEmpty: 
+The String list is not empty.
+
+USING isPresent: 
+The String list contains "h".
+
+USING lookup: 
+Does SLL contain "harambe"?: null
+
+USING delete AND printList: 
+h a r A m 
+
+USING returnSize: 
+The size of the list is: 5

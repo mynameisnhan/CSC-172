@@ -1,0 +1,13 @@
+Nhan Le
+CSC 172
+Lab 3: Combinatorics
+
+=== OUTPUT ===
+The number of anagrams for "error" is: 20
+The number of anagrams for "street" is: 180
+The number of anagrams for "allele" is: 60
+The number of anagrams for "Mississippi" is: 34650
+The number of ways to distribute 6 apples to 4 children is: 84
+The number of ways to distribute 4 apples to 6 children is: 126
+The number of ways to distribute 6 apples and 3 pears to 5 children is: 60060
+The number of ways to distribute 2 apples, 5 pears, and 6 bananas to 3 children is: 3783780

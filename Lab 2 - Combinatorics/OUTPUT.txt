@@ -1,0 +1,12 @@
+Nhan Le
+CSC 172
+Lab 2: Combinatorics
+
+=== OUTPUT ===
+The number of ways to paint 3 hours in any of 4 colors is: 81
+The number of ways to form passwords with 8 to 10 letters/digits is: 100145655914007684344930402500400015628006001125134385690157745
+The number of orderings for 9 players is: 362880
+The number of ways to elect 4 officers from 200 students is: 1552438800
+The number of ways to sequence 3 unique letters is: 15600
+The number of ways to sequence 5 unique letters is: 7893600
+The number of ways to deal 5 cards from 52 cards is: 2598960
