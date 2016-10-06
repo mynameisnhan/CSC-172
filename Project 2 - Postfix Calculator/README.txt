@@ -2,8 +2,7 @@ Nhan Le
 CSC 172
 Project 2: Postfix Calculator
 
-==== SYNOPSIS ====
-
+=== SYNOPSIS ===
 Step 1:
 Each line of txt file is added to input array as string.
 
@@ -42,7 +41,7 @@ InfixToPostfix.java: Contains conversion of infix string to postfix string queue
 PostfixCalc.java: Contains calculation of postfix string to answer string
 Main.java: Contains main method
 
-==== TO RUN ====
+=== TO RUN ===
 Open command prompt
 Change directory to folder with lab material
 To compile, type: javac *.java
