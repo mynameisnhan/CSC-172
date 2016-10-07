@@ -25,13 +25,15 @@ Step 4:
 Each answer array unit is added to txt file on new line.
 
 EXTRA CREDIT 1: ^, %, sin, cos, and tan are supported.
-EXTRA CREDIT 2: Division by 0 prints prints out "Cannot divide by zero". Unrecognized operators throw error.
+EXTRA CREDIT 2: Division by 0 prints prints out "Cannot divide by zero". Unrecognized operators and operands throw error.
 
-LIMITATION: The program works on the assumption that all tokens are delimited by spaces except parentheses, 
+ASSUMPTION 1: The program assumes that all tokens are delimited by spaces except parentheses, 
 !, sin, cos, tan, and ^. For sin(, cos(, and tan(, 1 space is added between the function and the open parenthesis. 
 For (expression), 1 space is added between the open parenthesis and the first token of the inner expression and 
 between the last token of the inner expression and the close parenthesis. For !operand, 1 space is added between ! and operand. 
 For operand^operand, 1 space is added between the first operand and ^ and between ^ and the second operand.
+
+ASSUMPTION 2: The program assumes that all operands are numbers.
 
 infix_expr_short.txt: Contains input demonstrating functionality
 extracred1.txt: Contains input demonstrating use of ^, %, sin, cos, and tan
