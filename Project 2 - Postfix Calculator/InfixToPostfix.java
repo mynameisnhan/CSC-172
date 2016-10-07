@@ -34,7 +34,8 @@ public class InfixToPostfix
     	
         while (infix.returnSize() > 0) // While there are things left in infix queue ... 
         { 
-            if (infix.peek().equals("&") | infix.peek().equals("|") | infix.peek().equals("=") | infix.peek().equals("<") | infix.peek().equals(">")) {
+            if (infix.peek().equals("&") | infix.peek().equals("|") | infix.peek().equals("=") | infix.peek().equals("<") | infix.peek().equals(">")) 
+            {
                 while (stack.returnSize() > 1 && !stack.peek().equals("(") ) // While there are things left in stack ... 
                     postfix.enqueue(stack.pop()); // Pop from stack and enqueue to postfix queue.
                 
@@ -49,7 +50,6 @@ public class InfixToPostfix
        
             else if (infix.peek().equals("("))  // If first in infix queue is ( ...
             	stack.push(infix.dequeue()); // Dequeue infix queue and push to stack.
-            
 		
             else if (infix.peek().equals(")"))  // If first in infix is ) ... 
             {
@@ -65,7 +65,7 @@ public class InfixToPostfix
                 while (stack.returnSize() > 0 && (getPriority(stack.peek()) >= getPriority(infix.peek())) && !infix.peek().equals("^")) 
                     postfix.enqueue(stack.pop()); // Pop operator off stack and enqueue to postfix queue.
                 
-    		stack.push(infix.dequeue());
+                stack.push(infix.dequeue());
             }
     	}
     	
@@ -106,27 +106,34 @@ public class InfixToPostfix
             case "+":
             case "-":
                 return ADDORSUBTRACT;
+                
             case "^":
                 return EXP;
+                
             case "&":
             case "|":
             case "=":
             case ">":
             case "<":
                 return BOOLEAN;
+                
             case "%":
             case "*":
             case "/":
                 return MULTIPLYORDIVIDE;
+                
             case "!":
                 return NOT;
+                
             case "(":
             case ")":
                 return PAREN;
+                
             case "sin":
             case "cos":
             case "tan":
                 return FUNC;
+                
             default:
                 throw new IllegalArgumentException("Operator not recognized.");
         }
