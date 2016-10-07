@@ -27,7 +27,7 @@ EXTRA CREDIT 1: ^, %, sin, cos, and tan are supported.
 EXTRA CREDIT 2: Division by 0 prints prints out "Cannot divide by zero". Unrecognized operators throw error.
 
 infix_expr_short.txt: Contains input demonstrating functionality
-extracred1.txt: Contains  input demonstrating use of ^, %, sin, cos, and tan
+extracred1.txt: Contains input demonstrating use of ^, %, sin, cos, and tan
 extracred2.txt: Contains input demonstrating handling of an illegal expression
 SLLInterface: Contains interface for SLL
 SLL.java: Contains SLL implementation that implements SLLInterface.java
