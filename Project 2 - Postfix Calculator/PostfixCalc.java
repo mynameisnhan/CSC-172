@@ -98,6 +98,9 @@ public class PostfixCalc
                     String temp = Double.toString(valueAnswer);
                     StringTokenizer tempToken = new StringTokenizer(temp);
                     
+                    if (valueOne == 0) 
+                    	return "Cannot divide by 0.";
+                
                     while (tempToken.hasMoreTokens())
                         stack.push(tempToken.nextToken());
                     
@@ -283,7 +286,7 @@ public class PostfixCalc
                 }
                 
                 else
-                    throw new java.util.NoSuchElementException("Equation contains unsupported characters.");
+                    return "Equation contains unsupported characters.";
             }
         }
         
