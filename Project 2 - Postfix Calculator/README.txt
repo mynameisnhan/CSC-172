@@ -24,6 +24,7 @@ Step 4:
 Each answer array unit is added to txt file on new line.
 
 EXTRA CREDIT 1: ^, %, sin, cos, and tan are supported.
+
 EXTRA CREDIT 2: Division by 0 prints prints out "Cannot divide by zero.". Unrecognized operators and operands during calculations print out the first unrecognized character "is not supported.".
 
 ASSUMPTION 1: The program assumes that all tokens are delimited by spaces except parentheses, 
@@ -32,7 +33,7 @@ For (expression), 1 space is added between the open parenthesis and the first to
 between the last token of the inner expression and the close parenthesis. For !operand, 1 space is added between ! and operand. 
 For operand^operand, 1 space is added between the first operand and ^ and between ^ and the second operand.
 
-ASSUMPTION 2: The program assumes that - followed by space means subtraction but - followed by any number means negative.
+ASSUMPTION 2: The program assumes that - followed by space indicates subtraction but - followed by any number indicates negativity.
 
 LIMITATION: The program only works for numeric operands.
 
