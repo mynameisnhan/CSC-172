@@ -134,8 +134,8 @@ public class InfixToPostfix
             case "tan":
                 return FUNC;
                 
-            default:
-                throw new IllegalArgumentException("Operator not recognized.");
+            default: // Arbitrarily assign illegal operators and operands to 1. Error will be handled in PostfixCalc.java.
+                return 1;
         }
     }    
 }
