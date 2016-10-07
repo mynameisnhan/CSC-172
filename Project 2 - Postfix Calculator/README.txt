@@ -16,7 +16,8 @@ Step 3:
 Postfix string queue is converted to postfix string and is put through calculator that returns answer string.
    PostfixCalc.java's StringTokenizer parses postfix string and assigns each unit to postfix string queue (using spaces as delimiters).
    If first in postfix string queue is an operand, dequeue and push to number stack.
-   If first in postfix string queue is an operator, pop from number stack either 1 number for ! or 2 numbers for other operators, solve,    and push answer to stack.
+   If first in postfix string queue is an operator, pop from number stack either 1 number for ! or 2 numbers for other operators, solve,
+   and push answer to stack.
    When postfix string queue is empty, stack should contain one value that is the answer, which is converted to String form.
    Answer string is added to answer array.
 
@@ -26,7 +27,11 @@ Each answer array unit is added to txt file on new line.
 EXTRA CREDIT 1: ^, %, sin, cos, and tan are supported.
 EXTRA CREDIT 2: Division by 0 prints prints out "Cannot divide by zero". Unrecognized operators throw error.
 
-LIMITATION: The program works on the assumption that all tokens are delimited by spaces except parentheses, !, sin, cos, tan, and ^. For sin(, cos(, and tan(, 1 space is added between the function and the open parenthesis. For (expression), 1 space is added between the open parenthesis and the first token of the inner expression and between the last token of the inner expression and the close parenthesis. For !operand, 1 space is added between ! and operand. For operand^operand, 1 space is added between the first operand and ^ and between ^ and the second operand.
+LIMITATION: The program works on the assumption that all tokens are delimited by spaces except parentheses, 
+!, sin, cos, tan, and ^. For sin(, cos(, and tan(, 1 space is added between the function and the open parenthesis. 
+For (expression), 1 space is added between the open parenthesis and the first token of the inner expression and 
+between the last token of the inner expression and the close parenthesis. For !operand, 1 space is added between ! and operand. 
+For operand^operand, 1 space is added between the first operand and ^ and between ^ and the second operand.
 
 infix_expr_short.txt: Contains input demonstrating functionality
 extracred1.txt: Contains input demonstrating use of ^, %, sin, cos, and tan
