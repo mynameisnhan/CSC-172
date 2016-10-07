@@ -32,7 +32,7 @@ For (expression), 1 space is added between the open parenthesis and the first to
 between the last token of the inner expression and the close parenthesis. For !operand, 1 space is added between ! and operand. 
 For operand^operand, 1 space is added between the first operand and ^ and between ^ and the second operand.
 
-ASSUMPTION 2: The program assumes that - followed by space means subtraction but - followed by any numbers means negative.
+ASSUMPTION 2: The program assumes that - followed by space means subtraction but - followed by any number means negative.
 
 LIMITATION: The program only works for numeric operands.
 
