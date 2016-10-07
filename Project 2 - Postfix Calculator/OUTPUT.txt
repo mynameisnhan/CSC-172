@@ -41,3 +41,7 @@ Project 2: Postfix Calculator
 ====== OUTPUT FOR extracred2.txt ======
 Cannot divide by 0.
 Cannot divide by 0.
+Cannot divide by 0.
+x is unsupported.
+$ is unsupported.
+

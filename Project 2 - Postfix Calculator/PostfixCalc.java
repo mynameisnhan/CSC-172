@@ -285,8 +285,8 @@ public class PostfixCalc
                     postfix.dequeue();
                 }
                 
-                else
-                    return "Equation contains unsupported characters.";
+                else 
+                    return postfix.peek() + " is unsupported.";
             }
         }
         
