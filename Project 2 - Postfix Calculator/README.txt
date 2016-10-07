@@ -14,9 +14,9 @@ Each input array unit (consisting of one string of one infix equation) is conver
 
 Step 3:
 Postfix string queue is converted to postfix string and is put through calculator that returns answer string.
-   StringTokenizer parses postfix string and assigns each unit to postfix string queue (using spaces as delimiters).
+   PostfixCalc.java's StringTokenizer parses postfix string and assigns each unit to postfix string queue (using spaces as delimiters).
    If first in postfix string queue is an operand, dequeue and push to number stack.
-   If first in postfix string queue is an operator, pop from number stack either 1 number for ! or 2 numbers for other operators, solve, and push answer to stack.
+   If first in postfix string queue is an operator, pop from number stack either 1 number for ! or 2 numbers for other operators, solve,    and push answer to stack.
    When postfix string queue is empty, stack should contain one value that is the answer, which is converted to String form.
    Answer string is added to answer array.
 
