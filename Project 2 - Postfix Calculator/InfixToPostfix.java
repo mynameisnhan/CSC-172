@@ -60,13 +60,16 @@ public class InfixToPostfix
                 infix.dequeue(); // Dequeue ) from infix queue.
             }
     		
-            else // If first in infix is operator ... 
+            else if (infix.peek().equals("+") | infix.peek().equals("-") | infix.peek().equals("*") | infix.peek().equals("/") | infix.peek().equals("^") ) // If first in infix is operator ... 
             { 
                 while (stack.returnSize() > 0 && (getPriority(stack.peek()) >= getPriority(infix.peek())) && !infix.peek().equals("^")) 
                     postfix.enqueue(stack.pop()); // Pop operator off stack and enqueue to postfix queue.
                 
                 stack.push(infix.dequeue());
             }
+            
+            else // If first in infix queue is unrecognized character  ...
+            	stack.push(infix.dequeue()); // Dequeue infix queue and push to stack. Error will be handled in PostfixCalc.java.
     	}
     	
         while (stack.returnSize() > 0)  // While there are things left in stack ...
@@ -134,8 +137,8 @@ public class InfixToPostfix
             case "tan":
                 return FUNC;
                 
-            default: // Arbitrarily assign illegal operators and operands to 1. Error will be handled in PostfixCalc.java.
-                return 1;
+            default: 
+                throw new IllegalArgumentException("Operator or operand not recognized."); // Useless line of code.
         }
     }    
 }
