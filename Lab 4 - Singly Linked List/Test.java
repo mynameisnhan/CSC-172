@@ -8,7 +8,7 @@ public class Test
 	public static void main(String[] args) 
 	{
 	    // Initialize SLL.
-	    SLL<String> list = new SLL<String>();
+	    SinglyLinkedListImplementation<String> list = new SinglyLinkedListImplementation<String>();
 	    
 	    System.out.println("USING isEmpty: ");
 	    if (list.isEmpty())
