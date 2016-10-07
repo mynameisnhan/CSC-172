@@ -46,5 +46,5 @@ Open command prompt
 Change directory to folder with lab material
 To compile, type: javac *.java
 To run Main.java with input from infix_expr_short.txt and output to output1.txt, type: java Main infix_expr_short.txt output1.txt
-To run Main.java with input from extracredit1.txt and output to output2.txt, type: java Main infix_expr_short.txt output2.txt
-To run Main.java with input from extracredit2.txt and output to output3.txt, type: java Main infix_expr_short.txt output3.txt
+To run Main.java with input from extracredit1.txt and output to output2.txt, type: java Main extracredit1.txt output2.txt
+To run Main.java with input from extracredit2.txt and output to output3.txt, type: java Main extracredit2.txt output3.txt
