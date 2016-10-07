@@ -29,11 +29,11 @@ EXTRA CREDIT 2: Division by 0 prints prints out "Cannot divide by zero". Unrecog
 infix_expr_short.txt: Contains input demonstrating functionality
 extracred1.txt: Contains input demonstrating use of ^, %, sin, cos, and tan
 extracred2.txt: Contains input demonstrating handling of an illegal expression
-SLLInterface: Contains interface for SLL
+SLLInterface.java: Contains interface for SLL
 SLL.java: Contains SLL implementation that implements SLLInterface.java
 StackInterface.java: Contains interface for stack.
 Stack.java: Contains stack implementationbased on SLL that implements StackInterface.java
-DLLInterfac: Contains interface for DLL
+DLLInterface.java: Contains interface for DLL
 DLL.java: Contains DLL implementation that implements DLLInterface.java
 QueueInterface.java: Contains interface for queue
 Queue.java: Contains queue implementation based on DLL that implements QueueInterface.java
