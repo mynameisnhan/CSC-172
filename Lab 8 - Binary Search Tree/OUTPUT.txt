@@ -1,0 +1,84 @@
+Nhan Le
+CSC 172
+Lab 8: Binary Search Tree
+
+=== OUTPUT ===
+USING insert:
+36, 57, 42, 99, 160, 382, 282, 731, 5, 1001 were inserted.
+
+USING printPreOrder:
+36
+5
+57
+42
+99
+160
+382
+282
+731
+1001
+
+USING printInOrder:
+5
+36
+42
+57
+99
+160
+282
+382
+731
+1001
+
+USING printPostOrder:
+5
+42
+282
+1001
+731
+382
+160
+99
+57
+36
+
+USING lookup:
+39 is not found.
+36 is found.
+
+USING delete:
+36 is deleted.
+99 is deleted.
+
+USING printPreOrder:
+42
+5
+57
+99
+160
+382
+282
+731
+1001
+
+USING printInOrder:
+5
+42
+57
+99
+160
+282
+382
+731
+1001
+
+USING printPostOrder:
+5
+282
+1001
+731
+382
+160
+99
+57
+42
