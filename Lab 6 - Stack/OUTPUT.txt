@@ -6,7 +6,10 @@ Lab 6: Stack
 USING isEmpty: 
 The stack is empty.
 
-USING push AND isEmpty: 
+USING push:
+e, b, m, a, r, a, H, , P, I, R were inserted.
+
+USING isEmpty: 
 The stack is not empty.
 
 USING peek: 
