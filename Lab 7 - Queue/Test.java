@@ -24,8 +24,9 @@ public class Test
 		queue.enqueue("m");
 		queue.enqueue("b");
 		queue.enqueue("e");
+		System.out.println("\nUSING enqueue:\nR, I, P, , H, a, r, a, m, b, e were enqueued.");
 		
-		System.out.println("\nUSING enqueue AND isEmpty: ");
+		System.out.println("\nUSING isEmpty: ");
 		if (!queue.isEmpty())
 			System.out.println("The queue is not empty.");
 		
