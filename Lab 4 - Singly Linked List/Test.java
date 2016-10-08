@@ -22,8 +22,9 @@ public class Test
 	    list.insert("m");
 	    list.insert("b");
 	    list.insert("e");
+	    System.out.println("\nUSING insert:\nh, a, r, A, m, b, e were inserted.");		
 	    
-	    System.out.println("\nUSING insert AND printList: ");
+	    System.out.println("\nUSING printList: ");
 	    list.printList();
 	    
 	    System.out.println("\nUSING isEmpty: ");
