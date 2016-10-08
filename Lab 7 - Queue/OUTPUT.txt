@@ -6,7 +6,10 @@ Lab 7: Queue
 USING isEmpty: 
 The queue is empty.
 
-USING enqueue AND isEmpty: 
+USING enqueue:
+R, I, P, , H, a, r, a, m, b, e were enqueued.
+
+USING isEmpty: 
 The queue is not empty.
 
 USING peek: 
