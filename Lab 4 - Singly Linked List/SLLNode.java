@@ -3,8 +3,8 @@
  * Lab 4: Singly Linked List 
  */
 
-public class MyNode<T> 
+public class SLLNode<T> 
 {
 	public T data;
-	public MyNode<T> next;
+	public SLLNode<T> next;
 }

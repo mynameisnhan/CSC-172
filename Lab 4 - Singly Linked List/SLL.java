@@ -3,15 +3,15 @@
  * Lab 4: Singly Linked List 
  */
 
-public class SinglyLinkedListImplementation<T> implements SinglyLinkedList<T> 
+public class SLL<T> implements SLLInterface<T> 
 {	
 	private int size;
-	private MyNode<T> head;
+	private SLLNode<T> head;
     
 	// Constructor.
-	public SinglyLinkedListImplementation() 
+	public SLL() 
 	{
-		head = new MyNode<T>();
+		head = new SLLNode<T>();
 	}
 	
     	// Method to insert element at tail.
@@ -29,8 +29,8 @@ public class SinglyLinkedListImplementation<T> implements SinglyLinkedList<T>
 			return;
 		
 		// Variable declaration.
-		MyNode<T> currentNode = head;
-		MyNode<T> insertedNode = new MyNode<T>();
+		SLLNode<T> currentNode = head;
+		SLLNode<T> insertedNode = new SLLNode<T>();
 		insertedNode.data = x;
         
 		// Iterate to end of SLL.
@@ -58,7 +58,7 @@ public class SinglyLinkedListImplementation<T> implements SinglyLinkedList<T>
 		
 		else 
 		{	
-			MyNode<T> currentNode = head;
+			SLLNode<T> currentNode = head;
 			
 			// Iterate until x is found in SLL.
 			while (currentNode.next != null) 
@@ -88,7 +88,7 @@ public class SinglyLinkedListImplementation<T> implements SinglyLinkedList<T>
 	// Internal method to determine if element of interest is in SLL.
 	private boolean doIsPresent(T x) 
 	{
-		MyNode<T> currentNode = head;
+		SLLNode<T> currentNode = head;
 		
 		// Iterate until x is found in SLL.
 		while (currentNode.next != null) 
@@ -114,7 +114,7 @@ public class SinglyLinkedListImplementation<T> implements SinglyLinkedList<T>
 	private T doLookup(T x) 
 	{
 		T returnValue = null;
-		MyNode<T> currentNode = head;
+		SLLNode<T> currentNode = head;
 		
 		// Iterate until x is found in SLL.
 		while (currentNode.next != null) 
@@ -159,7 +159,7 @@ public class SinglyLinkedListImplementation<T> implements SinglyLinkedList<T>
 	// Internal method to print list.
 	private void doPrintList() 
 	{	
-		MyNode<T> currentNode = head;
+		SLLNode<T> currentNode = head;
 		
 		// Iterate through SLL.
 		while (currentNode.next != null) { 

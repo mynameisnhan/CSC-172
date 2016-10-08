@@ -7,7 +7,7 @@ In CSC 172 lab, we are learning about singly linked lists. The SLL was created u
 
 OUTPUT.txt: Contains output for Test.java
 SLLNode.java = Contains node class
-SSLInterface.java = Contains interface for SLL
+SLLInterface.java = Contains interface for SLL
 SLL.java = Contains SLL implementation that extends SLLInterface.java
 Test.java = Contains test program
 

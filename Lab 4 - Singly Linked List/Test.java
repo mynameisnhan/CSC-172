@@ -8,7 +8,7 @@ public class Test
 	public static void main(String[] args) 
 	{
 	    // Initialize SLL.
-	    SinglyLinkedListImplementation<String> list = new SinglyLinkedListImplementation<String>();
+	    SLL<String> list = new SLL<String>();
 	    
 	    System.out.println("USING isEmpty: ");
 	    if (list.isEmpty())
@@ -40,8 +40,9 @@ public class Test
 	    
 	    list.delete("b");
 	    list.delete("e");
+	    System.out.println("\nUSING delete:\nb, e were deleted. ");
 	    
-	    System.out.println("\nUSING delete AND printList: ");
+	    System.out.println("\nUSING printList: ");
 	    list.printList();
 	    
 	    System.out.println("\nUSING returnSize: ");

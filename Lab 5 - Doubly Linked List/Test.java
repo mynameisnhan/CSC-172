@@ -22,8 +22,9 @@ public class Test
 	    list.insert("m");
 	    list.insert("b");
 	    list.insert("e");
+	    System.out.println("\nUSING insert:\nh, a, r, A, m, b, e were inserted.");
 	    
-	    System.out.println("\nUSING insert AND printList: ");
+	    System.out.println("\nUSING printList: ");
 	    list.printList();
 	    
 	    System.out.println("\nUSING isEmpty: ");
@@ -39,8 +40,10 @@ public class Test
 	    
 	    list.delete("b");
 	    list.delete("e");
+	    System.out.println("\nUSING delete:\nb, e, were deleted.");
+
 	    
-	    System.out.println("\nUSING delete AND printList: ");
+	    System.out.println("\nUSING printList: ");
 	    list.printList();
 	    
 	    System.out.println("\nUSING printListRev: ");

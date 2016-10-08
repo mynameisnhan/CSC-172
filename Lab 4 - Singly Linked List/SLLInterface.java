@@ -3,7 +3,7 @@
  * Lab 4: Singly Linked List 
  */
 
-public interface SinglyLinkedList<T> 
+public interface SLLInterface<T> 
 {
 	public void insert(T x);
 	public void delete(T x);
