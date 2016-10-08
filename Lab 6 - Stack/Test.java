@@ -24,8 +24,9 @@ public class Test
 		stack.push("P");
 		stack.push("I");
 		stack.push("R");
+		System.out.println("\nUSING push:\ne, b, m, a, r, a, H, , P, I, R were inserted.");
 		
-		System.out.println("\nUSING push AND isEmpty: ");
+		System.out.println("\nUSING isEmpty: ");
 		if (!stack.isEmpty())
 			System.out.println("The stack is not empty.");
 		
