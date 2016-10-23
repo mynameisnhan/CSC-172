@@ -134,12 +134,12 @@ public class BSTNode<T extends Comparable<T>>
 	private void doPrintInOrder() 
 	{
 		if (this.leftChild != null) 
-			this.leftChild.printInOrder();
+			this.leftChild.doPrintInOrder();
 
 		System.out.println(this.data);
 		
 		if (this.rightChild != null)
-			this.rightChild.printInOrder();
+			this.rightChild.doPrintInOrder();
 	}
 
 	// Method to print preorder. 
@@ -154,10 +154,10 @@ public class BSTNode<T extends Comparable<T>>
 		System.out.println(this.data);
 		
 		if (this.leftChild != null) 
-			this.leftChild.printPreOrder();
+			this.leftChild.doPrintPreOrder();
 
 		if (this.rightChild != null) 
-			this.rightChild.printPreOrder();
+			this.rightChild.doPrintPreOrder();
 	}
 
 	// Method to print postorder.
@@ -170,10 +170,10 @@ public class BSTNode<T extends Comparable<T>>
 	private void doPrintPostOrder() 
 	{
 		if (this.leftChild != null) 
-			this.leftChild.printPostOrder();
+			this.leftChild.doPrintPostOrder();
 
 		if (this.rightChild != null) 
-			this.rightChild.printPostOrder();
+			this.rightChild.doPrintPostOrder();
 		
 		System.out.println(this.data);
 	}
