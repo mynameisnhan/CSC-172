@@ -1,6 +1,6 @@
 /* Nhan Le
  * CSC 172
- * Lab 8: BST
+ * Lab 8: Binary Search Tree
  */
 
 public class Test {
