@@ -1,6 +1,6 @@
 Nhan Le
 CSC 172
-Lab 7: Queue
+Lab 8: Binary Search Tree
 
 === SYNOPSIS ===
 In CSC 172 lab, we are learning about binary search trees. 
