@@ -35,7 +35,8 @@ public class BSTNode<T extends Comparable<T>>
 		} 
 		
 		// If new element is greater than node element.
-		else if (x.compareTo(this.data) > 0) 
+
+		else if (x.compareTo(this.data) > 0 || x.compareTo(this.data) == 0) 
 		{
 			if (this.rightChild == null) 
 			{
@@ -45,9 +46,9 @@ public class BSTNode<T extends Comparable<T>>
 				this.rightChild = newNode;
 			} 
 			
-		// If new element is equal to node element.
-		else 
-			this.rightChild.insert(x);
+			// If new element is equal to node element.
+			else 
+				this.rightChild.insert(x);
 		}
 	}
 
