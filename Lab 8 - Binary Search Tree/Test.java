@@ -1,9 +1,6 @@
-/*
- * Nhan Le
+/* Nhan Le
  * CSC 172
- * Lab 10
- * BSTTest.java
- * Test BST.
+ * Lab 8: BST
  */
 
 public class Test {
