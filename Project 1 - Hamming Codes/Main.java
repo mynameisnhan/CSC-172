@@ -32,12 +32,16 @@ public class Main
 		{
         		case 0:  Hamming.encode_7_4(input, output); // Done!
         			break;
+        			
         		case 1:  Hamming.encode_15_11(input, output); // Done!
         			break;
+        		
         		case 2:  Hamming.decode_7_4(input, output);
         			break;
+        		
         		case 3: Hamming.decode_15_11(input, output);
         			break;
+        		
         		default: {throw new IllegalArgumentException("Invalid input, dumbass.");}
 		}
 		
