@@ -25,7 +25,7 @@ Each answer array unit is added to txt file on new line.
 
 EXTRA CREDIT 1: ^, %, sin, cos, and tan are supported.
 
-EXTRA CREDIT 2: Division by 0 prints prints out "Cannot divide by zero.". Unrecognized operators and operands during calculations print out the first unrecognized character "is not supported.".
+EXTRA CREDIT 2: Division by 0 prints out "Cannot divide by zero.". Unrecognized operators and operands during calculations print out the first unrecognized character "is not supported.".
 
 ASSUMPTION 1: The program assumes that all tokens are delimited by spaces except parentheses, 
 !, sin, cos, tan, and ^. For sin(, cos(, and tan(, 1 space is added between the function and the open parenthesis. 
