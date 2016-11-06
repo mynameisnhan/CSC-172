@@ -3,8 +3,7 @@ CSC 172
 Lab 12: Hash Table
 
 === SYNOPSIS ===
-In CSC 172 lab, we are learning about hash tables.
-The hash table was written based on code from Mark Allen Weiss's Data Structures and Algorithm Analysis in Java, 3rd ed.
+In CSC 172 lab, we are learning about hash tables. The hash table was written based on code from Mark Allen Weiss's Data Structures and Algorithm Analysis in Java, 3rd ed.
 
 OUTPUT.txt: Contains output for Test.java
 LoremIpsum.txt: Contains test file
