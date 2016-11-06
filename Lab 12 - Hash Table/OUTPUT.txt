@@ -1,0 +1,10 @@
+Nhan Le
+CSC 172
+Lab 12: Hash Table
+
+USING print:
+volutpat, Maecenas, faucibus, erat, quam, Donec, congue, Suspendisse, enim, scelerisque, rutrum, sit, vel, id, elementum, Nulla, vitae, fringilla, metus, ultrices, dolor, Cras, diam, non, Phasellus, Pellentesque, consequat, augue, arcu, leo, sed, bibendum, ut, gravida, nec, euismod, Aliquam, vestibulum, a, hendrerit, adipiscing, dui, quis, posuere, Etiam, et, eu, In, convallis, ex, odio, sollicitudin, Vivamus, sapien, ultricies, orci, purus, turpis, aliquet, nulla, nibh, Ut, risus, tortor, placerat, venenatis, ac, amet, est, maximus, ipsum, ullamcorper, molestie, tempor, lacus, Integer, facilisis, mi, consectetur, tincidunt, Duis, ante, mollis, dictum,
+
+Unique words: 84
+Hash table capacity: 208
+Words scanned in: 136
